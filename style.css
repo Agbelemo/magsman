@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background: black;
+}
+
+.logo{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 500px;
+    border: 2px solid white;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 3.5%;
+}
+
+.letter{
+    color: white;
+    position: absolute;
+    margin-left: 12%;
+    font-size: 80px;
+    font-weight: 100px;
+}
+
+.button{
+    margin-top: -20px;
+}
+
+section .button .span1{
+    width: 3%;
+    height: 0.1vw;
+    background: white;
+    margin-left: 80%;
+}
+
+section .button .span2{
+    width: 7%;
+    height: 0.1vw;
+    background: white;
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+section .button .span3{
+    width: 5%;
+    height: 0.1vw;
+    background: white;
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+
+.showcase{
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.details h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+
+.details p{
+    font-size: 25px;
+    margin-left: 25%;
+    margin-bottom: -30px;
+}
+
+.icons{
+    width: 20%;
+    height: 20vw;
+    margin-left: 80%;
+    margin-top: -13%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.youtube{
+    width: 5vw;
+    height: 5vw;
+    background: red;
+}
+
+.instagram{
+    width: 5vw;
+    height: 5vw;
+    background: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.facebook{
+    width: 5vw;
+    height: 5vw;
+    background: url('./assest/facebook.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
